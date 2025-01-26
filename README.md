@@ -19,7 +19,7 @@ After performing the **`git add .`** command, the **`git commit`** message shoul
 
 **Example:**
     
-    git commit -m "DataPreprocessing/preprocess.ipynb - handling missing values"
+    git commit -m "EEG_Classifier/MentalStateClassification.ipynb - Update feature extraction."
 
 Task description should provide enough information for other members to understand what was updated or changed, e.g., fixing bugs, adding features, refactoring code.
 
@@ -32,10 +32,7 @@ After that, use the **`git push`** command to push into the GitHub repository.
 | **Folder**              | **Description**                                              |
 |-------------------------|--------------------------------------------------------------|
 | Data                    | Contains the original dataset used for training and testing. |
-| Data_Preprocessing      | Source code for data cleaning, normalization, and filtering. |
-| Feature_Engineering     | Source code for feature extraction, transformation, and selection processes. |
-| Model_Development       | Source code for training Machine Learning models |
-| Visualization           | Source code for visualizing the raw data, derived features, and model performance metrics such as confusion matrices and ROC curves. |
+| EEG_Classifier          | Source code for data preprocessing, feature engineering, model training, and performance visualization, including metrics like confusion matrices and ROC curves.|
 | Reports                 | Documented reports and presentations summarizing the project findings. |
 | Setup                   | Contains the environment setup files and dependencies required to run. |
 
